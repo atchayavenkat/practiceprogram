@@ -1,0 +1,5 @@
+
+$ echo $((RANDOM % 10))
+
+dice between 1 and 6
+$ echo $(((RANDOM % 10) + 1))
