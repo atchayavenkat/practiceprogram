@@ -1,0 +1,10 @@
+echo "enter number"
+read n
+$thousand = ((n/1000) % 1000)
+echo $thousand
+$hundred = ((n/100) % 100)
+echo $hundred
+$ten = ((n/10) % 10)
+echo $ten
+$unit = (n%1)
+echo $unit

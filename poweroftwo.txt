@@ -1,0 +1,12 @@
+echo "enter number"
+read n
+i=0
+power=1
+while(i <= n)
+do
+sum=$(($i + $power))
+echo $sum
+$power = ( (2 * power) )
+i=i+1
+echo $power
+done
